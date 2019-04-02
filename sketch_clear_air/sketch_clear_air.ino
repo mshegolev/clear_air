@@ -25,4 +25,8 @@ void loop() {
   lcd.print("PPM: ");
   lcd.print(gasSensor.getPPM());
   
+  lcd.setCursor(0,1);
+  lcd.print("RZERO: ");
+  lcd.print(gasSensor.getRZero());
+  
 }
