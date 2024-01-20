@@ -1,4 +1,5 @@
 # Prerequisites
+.theia
 *.d
 .DS_Store
 # Compiled Object files
